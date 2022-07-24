@@ -5,6 +5,7 @@ from cryptography.fernet import Fernet
 
 
 
+
 app = Flask(__name__)
 key = Fernet.generate_key()
 
